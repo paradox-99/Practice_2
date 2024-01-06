@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <style>
+        input {
+            display: block;
+        }
+
+        textarea {
+            display: block;
+        }
+
+        img {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <section>
+        <label for="search">Search your image:
+            <input type="search" name="search" id="search" placeholder="Search" style="display: inline;">
+        </label>
+        <button type="submit">Search</button>
+        <img src="images/tom.png" alt="picture of tom" width="300px" style="padding-top: 10px;">
+        <a href="#" style="display: block;">For more click here</a>
+    </section>
+
+    <hr>
+
+    <section>
+        <form>
+            <label for="">Feedback Form: </label>
+            <br>
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="date">Date:
+                <input type="datetime" name="datetime" id="date">
+            </label>
+            <label for="name">Comment:</label>
+            <textarea name="area" id="text" cols="50" rows="5"></textarea>
+            <button type="submit" style="margin-top: 10px;">Submit</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <label for="">Quality:</label>
+        <select name="" id="">
+            <option value="">None</option>
+            <option value="">Good</option>
+            <option value="">Better</option>
+            <option value="">Excellent</option>
+        </select>
+    </section>
+
+</body>
+
+</html>
